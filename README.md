@@ -23,6 +23,8 @@ In case of any suggestions, feedback or comments please feel free to contact via
 
 For more options please see contact information on YouNonStop's [website](http://www.younonstop.com).
 
+**I am currently seeking new opportunities. Inquires about startup opportunities or challenging roles are most welcome.**
+
 
 ## How to contribute ##
 
