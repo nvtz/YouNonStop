@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size:14px;
+    background: #000;
+    font-color:#fff;
+    position:relative;
+    overflow-y: hidden; 
+}
+
+h1, h2 {
+    font-weight: 300;
+}
+
+h3, h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.pad10 {
+  padding: 10px;
+}
+
+.mar10 {
+  margin: 10px;
+}
+
+.lspace {
+  margin-left: 10px;
+}
+
+.rspace {
+  margin-right: 10px;
+}
+
+.tspace {
+  margin-top: 10px;
+}
+
+.bspace {
+  margin-bottom: 10px;
+}
+
+.hspace {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.vspace {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#mediaplayer {
+    margin:0 px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#playercontainer {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top:0px;
+    margin-bottom:0px;
+    height: 100%;
+    min-width: 705px;
+    min-height: 420px;
+}
+
+
+#controlscontainer {
+    position: fixed;
+    bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    width:80%;
+    text-align: center;
+}
+
+#playerControls {
+    width:auto;
+    display: inline-block;
+    padding: 5px 25px 5px 25px;
+    padding: 5px 25px 5px 25px \9;
+    background-color: #222;
+    border-color: #111;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1),0 1px 0 rgba(255,255,255,0.15);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1),0 1px 0 rgba(255,255,255,0.15);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1),0 1px 0 rgba(255,255,255,0.15);
+    -webkit-border-radius: 25px;
+     -moz-border-radius: 25px;
+          border-radius: 25px;
+    opacity: 0.7;
+}
+
+#playerControls a {
+  color: #999;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+#playerControls a:hover {
+  color: #fff;
+}
+
+#playerControls a:active {
+  color: #fff;
+}
+
+#placeholder {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.search-form {
+  padding: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.search-bar {
+    width: 40%;
+}
+
+input.search-query {
+  padding-right: 14px;
+  padding-right: 4px \9;
+  padding-left: 14px;
+  padding-left: 4px \9;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+  margin-bottom: 0;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+}
+
+.search-query {
+    color: #999;
+    background-color: #515151;
+    border-color: #111;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1),0 1px 0 rgba(255,255,255,0.15);
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1),0 1px 0 rgba(255,255,255,0.15);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1),0 1px 0 rgba(255,255,255,0.15);
+}
+
+.search-query {
+  -webkit-border-radius: 14px 0 0 14px;
+     -moz-border-radius: 14px 0 0 14px;
+          border-radius: 14px 0 0 14px;
+}
+
+.modal-dialog {
+  opacity: 0.7;
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0,0,0,0.5);
+  color: rgba(255, 255, 255, 1);
+}
+
+.modal-content.btn {
+  color: 1px solid rgba(0,0,0,1);
+} 
+
+.modal-header {
+  border-bottom: 1px solid #000000;
+}
+
+.modal-footer {
+  border-top: 1px solid #000000;
+}
+
+@media (max-width: 768px) {
+  .search-bar {
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (max-height: 300px) {
+  #controlscontainer {
+      position: fixed;
+      top: 150px;
+      bottom: auto;
+  }
+}
