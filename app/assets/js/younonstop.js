@@ -715,7 +715,8 @@ function onError ( e ) {
         playerHeight: "356",
         swfVersion: "9.0.18",
         params: {
-            allowScriptAccess: "always"
+            allowScriptAccess: "always",
+            wmode: "transparent"
         },
         atts: {
             id: 'ytplayer',

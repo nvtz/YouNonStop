@@ -1,6 +1,6 @@
 /*!
 *
-* YouNonStop - v0.1.0 - 2014-02-26 
+* YouNonStop - v0.1.0 - 2014-02-27 
 *
 * Copyright 2014 Navtez Singh 
 *
@@ -724,7 +724,8 @@ function onError ( e ) {
         playerHeight: "356",
         swfVersion: "9.0.18",
         params: {
-            allowScriptAccess: "always"
+            allowScriptAccess: "always",
+            wmode: "transparent"
         },
         atts: {
             id: 'ytplayer',

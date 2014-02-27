@@ -1,3 +1,7 @@
+html {
+  height: 100%;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -6,6 +10,10 @@ body {
     font-color:#fff;
     position:relative;
     overflow-y: hidden; 
+    width: 100%;
+    height:100%;
+    min-width:480px;
+    min-height:360px;
 }
 
 h1, h2 {
@@ -52,12 +60,21 @@ h3, h4 {
   margin-bottom: 10px;
 }
 
+.nobr {
+  white-space:nowrap;
+}
 
-#mediaplayer {
-    margin:0 px;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 0px;
+
+#placeholder {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%  !important;
+    height: 100% auto;
+    z-index: 1029;
 }
 
 #playercontainer {
@@ -67,8 +84,9 @@ h3, h4 {
     margin-top:0px;
     margin-bottom:0px;
     height: 100%;
-    min-width: 705px;
-    min-height: 420px;
+    min-width: 480px;
+    min-height: 360px;
+    z-index: 0;
 }
 
 
@@ -81,6 +99,7 @@ h3, h4 {
     margin-bottom: 0px;
     width:80%;
     text-align: center;
+    z-index: 1030;
 }
 
 #playerControls {
@@ -111,12 +130,6 @@ h3, h4 {
 
 #playerControls a:active {
   color: #fff;
-}
-
-#placeholder {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
 }
 
 .search-form {

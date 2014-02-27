@@ -8,6 +8,21 @@ YouNonStop is the easiest, fastest and the most enjoyable YouTube music and vide
 Available at [YouNonStop.com](http://www.younonstop.com)
 
 
+## Requirements ##
+
+Any latest Flash and JavaScript enabled browser.
+
+Tested on Google Chrome (v 33.0.1750.117), Safari (v 6.1.1 (7537.73.11)) and Firefox (v 24.0). It should work on IE9+ as well.
+
+
+## Known Issues ##
+
+- [Bug 836786](https://bugzilla.mozilla.org/show_bug.cgi?id=836786) - Mac OSX: Mouse over Flash mousemove event not occurring
+  Implemented a hack (sort of).
+
+- Safari does not allow key board input in Fullscreen mode.
+
+
 ## Social ##
 
 Please feel free to like or follow:
