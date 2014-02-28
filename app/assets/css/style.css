@@ -64,6 +64,16 @@ h3, h4 {
   white-space:nowrap;
 }
 
+#noflash {
+  position: fixed;
+  margin-top :150px;
+  width:100%;
+}
+
+#hidden {
+  display: none;
+}
+
 
 #placeholder {
     padding: 0;

@@ -1,6 +1,6 @@
 /*!
 *
-* YouNonStop - v0.1.0 - 2014-02-27 
+* YouNonStop - v0.1.0 - 2014-02-28 
 *
 * Copyright 2014 Navtez Singh 
 *
@@ -666,6 +666,9 @@ function onError ( e ) {
 
             this.debug('onPlayerReady: ' + playerId);
 
+            this.playerControls.removeClass('hidden');
+            $("#placeholder").removeClass('hidden');
+
             this.player = document.getElementById(playerId);
             this.player.addEventListener('onStateChange', 'onYouTubePlayerStateChange');
             this.search.call(this.searchInput[0]);
@@ -719,7 +722,7 @@ function onError ( e ) {
 
 
     $.fn.loadYouNonStop.options = {
-        ytPlayerURL: "http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=ytplayer&version=3&controls=0&scale=0",
+        ytPlayerURL: "http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=ytplayer&version=3&scale=0",
         playerWidth: "425",
         playerHeight: "356",
         swfVersion: "9.0.18",

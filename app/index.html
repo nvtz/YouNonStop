@@ -64,15 +64,26 @@
       </div>
     </div>
     
-    <div id="placeholder"><!-- Hack for Firefox on Mac because due to some reason the mouse move event does not bubble up --></div>
+    <div id="placeholder" class="hidden"><!-- Hack for Firefox on Mac because due to some reason the mouse move event does not bubble up --></div>
     <div id="playercontainer">
       <!-- Player  -->
-      <div id="younonstopplayer"></div>
+      <div id="younonstopplayer">
+        <div id="noflash" class="text-center">
+          <p>
+            <strong>
+              You do not have Flash Player installed or older than the required.<br/><br/>
+              This application requires Flash enabled browser to run.<br/><br/>
+              <a href="https://www.adobe.com/go/getflashplayer" target="_blank">Click here</a>
+              to install the latest version and then try again.
+            </strong>
+          </p>
+        </div>
+      </div>
     </div>
     
     <div id="controlscontainer">
       <!-- Player Controls -->
-      <div id="playerControls" class="text-center">
+      <div id="playerControls" class="hidden text-center">
         <span class="nobr">
         <a href="#" title="Previous Video (Left Arrow)" class="hspace" data-control="previous"><i class="fa fa-step-backward"></i></a>
         <a href="#" title="Play / Pause (Spacebar)" class="hspace" data-control="playpause"><i class="fa fa-pause"></i></a>
@@ -262,7 +273,7 @@
 
       // Load YouNonStop Player
       $('#younonstopplayer').loadYouNonStop({
-              ytPlayerURL: "http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=ytplayer&version=3&controls=0",
+              ytPlayerURL: "http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=ytplayer&version=3",
               playerWidth: "100%",
               playerHeight: "100%",
               swfVersion: "9",
