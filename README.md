@@ -17,7 +17,7 @@ Tested on Google Chrome (v 33.0.1750.117), Safari (v 6.1.1 (7537.73.11)) and Fir
 
 ## Screenshot ##
 
-[![YouNonStop in action](https://raw.github.com/navtez/YouNonStop/master/screenshots/1.png)]
+![YouNonStop in action](https://raw.github.com/navtez/YouNonStop/master/screenshots/1.png)
 
 
 ## Known Issues ##
