@@ -15,6 +15,11 @@ Any latest Flash and JavaScript enabled browser.
 Tested on Google Chrome (v 33.0.1750.117), Safari (v 6.1.1 (7537.73.11)) and Firefox (v 24.0). It should work on IE9+ as well.
 
 
+## Screenshot ##
+
+[![YouNonStop in action](https://raw.github.com/navtez/YouNonStop/master/screenshots/1.png)]
+
+
 ## Known Issues ##
 
 - [Bug 836786](https://bugzilla.mozilla.org/show_bug.cgi?id=836786) - Mac OSX: Mouse over Flash mousemove event not occurring
