@@ -740,6 +740,7 @@ function onError ( e ) {
     $.fn.loadYouNonStop.dataAPIOptions = {
         format: '5',
         'max-results': '10',
+        'paid-content': false,
         v: '2',
         alt: 'jsonc'
     };
