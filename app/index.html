@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="YouNonStop.com | The most enjoyable music and videos experience">
     <meta name="author" content="YouNonStop">
-    <link rel="shorcut icon" sizes="128x128" href="./assets/img/ico/ico.png">
+    <link rel="shorcut icon" sizes="128x128" href="ico.png">
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
@@ -17,12 +17,9 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-
-    <!-- local CSS -->
-    <link href="./assets/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <script type="text/javascript" src="//www.google.com/jsapi"></script>
+    <!-- <script type="text/javascript" src="//www.google.com/jsapi"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,7 +29,7 @@
       ga('create', 'UA-48371561-1', 'younonstop.com');
       ga('send', 'pageview');
 
-    </script>
+    </script> -->
     <div class="navbar-wrapper">
       <div class="container">
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -54,8 +51,7 @@
                 <li><a href="#" data-toggle="modal" data-target="#shortcuts"><i class="fa fa-keyboard-o"></i></a></li>
                 <li><a href="#" data-toggle="modal" data-target="#about"><i class="fa fa-info"></i></a></li>
                 <li><a href="#" data-toggle="modal" data-target="#contact"><i class="fa fa-envelope"></i></a></li>
-                <li><a href="https://www.facebook.com/pages/Younonstopcom/777460158933051" target="_blank" ><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://plus.google.com/115602565845608223831" rel="publisher" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.facebook.com/UNonStop" target="_blank" ><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://www.twitter.com/UNonStop" target="_blank"><i class="fa fa-twitter"></i></a></li>
               </ul>
             </div>
@@ -64,18 +60,13 @@
       </div>
     </div>
     
-    <div id="placeholder" class="hidden"><!-- Hack for Firefox on Mac because due to some reason the mouse move event does not bubble up --></div>
+    <div id="placeholder" class="hidden"></div>
     <div id="playercontainer">
       <!-- Player  -->
       <div id="younonstopplayer">
-        <div id="noflash" class="text-center">
+        <div id="waitmsg" class="text-center">
           <p>
-            <strong>
-              You do not have Flash Player installed or older than the required.<br/><br/>
-              This application requires Flash enabled browser to run.<br/><br/>
-              <a href="https://www.adobe.com/go/getflashplayer" target="_blank">Click here</a>
-              to install the latest version and then try again.
-            </strong>
+            <strong>Please wait...</strong>
           </p>
         </div>
       </div>
@@ -154,27 +145,20 @@
               and allows the user to search videos in easy and the fastest way.
             </p>
             <p>
-              <a href="https://www.facebook.com/pages/Younonstopcom/777460158933051" target="_blank"><button class="btn btn-sm btn-facebook vspace rspace">
+              <a href="https://www.facebook.com/UNonStop" target="_blank"><button class="btn btn-sm btn-facebook vspace rspace">
                 <i class="fa fa-facebook"></i> YouNonStop
               </button></a>
               <a href="https://www.twitter.com/UNonStop" target="_blank"><button class="btn btn-sm btn-twitter vspace rspace">
                 <i class="fa fa-twitter"></i> @UNonStop
               </button></a>
-              <a href="https://plus.google.com/115602565845608223831" rel="publisher" target="_blank"><button class="btn btn-sm btn-google-plus vspace rspace">
-                <i class="fa fa-google-plus"></i> YouNonStop
-              </button></a>
-              <a href="https://github.com/navtez/YouNonStop" target="_blank"><button class="btn btn-sm btn-default vspace rspace">
+              <a href="https://github.com/nvtz/YouNonStop" target="_blank"><button class="btn btn-sm btn-default vspace rspace">
                 <i class="fa fa-github"></i> Github
               </button></a>
-              <p>Please like or follow YouNonStop on Facebook, Google+, Twitter or Github.</p>
+              <p>Please like or follow YouNonStop on Facebook, Twitter or Github.</p>
             </p>
             <h3>About Me</h3>
             <p>
-              My name is Navtez. I am a software developer by profession. I love technology and startups.
-            <strong>
-                I am currently seeking new opportunities.
-                Inquires about startup opportunities or challenging roles are most welcome.
-              </strong>
+              Just another Software Dev who love building great products.
             </p>
             <div class="tspace">
               For contact information please <a href="javascript:$('#about').modal('hide');$('#contact').modal();">click here</a>.
@@ -200,21 +184,7 @@
           <div class="modal-body">
             <div class="lspace rspace">
               <p>Please feel free to connect or follow. I would love to hear from you.</p>
-              <p><strong> No Spam, Please!</strong></p>
-              <p>
-                <a href="mailto:i(at)Navtez(dot)com" target="_blank"><button class="btn btn-sm btn-primary  vspace rspace">
-                  <i class="fa fa-envelope"></i> i @ Navtez.com
-                </button></a>
-                <a href="http://www.twitter.com/bynav" target="_blank"><button class="btn btn-sm btn-twitter vspace rspace">
-                  <i class="fa fa-twitter"></i> @bynav
-                </button></a>
-                <a href="https://angel.co/navtez-singh" target="_blank"><button class="btn btn-sm btn-default vspace rspace">
-                  <strong>AngelList</strong>
-                </button></a>
-                <a href="https://github.com/navtez" target="_blank"><button class="btn btn-sm btn-default vspace rspace">
-                  <i class="fa fa-github"></i> Github
-                </button></a>
-              </p>
+              <p> Please see github page for contact details. </p>
             </div>
           </div>
           <div class="modal-footer">
@@ -224,74 +194,8 @@
       </div>
     </div>
 
-
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-    <script src="./assets/js/main.js"></script>
-    <script>
-    $(function() {
-      
-      function randomSearchQuery() {
-        
-        var artists = [ 'Katty Perry', 'Eminem', 'Miley Cyrus', 'Imagine Dragons', 'Drake', 'Lorde', 'Lady Gaga', 'Avicii', 'John Newman', 'Big Sean',
-                        'Luke Bryan', 'Jay-Z', 'Robin Thicke', 'One Direction', 'Florida Georgia Line', 'Justin Timberlake', 'Macklemore', 'OneRepublic',
-                        'Capital Cities', 'Zedd', 'Passenger', 'Bruno Mars', 'Sage the Gemini', 'AWOLNATION', 'Lana Del Rey', 'Sara Bareilles',
-                        'The Neighbourhood', 'Mike WiLL Made It', 'Pitbull', 'Selena Gomez', 'Jason Aldean', 'Bastille', 'Ellie Goulding', 'P!nk',
-                        'Blake Shelton', 'Taylor Swift', 'A Great Big World', 'Beyonce', 'Paramore', 'Thomas Rhett', 'J. Cole', 'Daft Punk',
-                        'Jason Derulo', 'Anna Kendrick', 'Macklemore & Ryan Lewis', 'Keith Urban', 'David Nail', 'Sevyn Streeter', 'Maroon 5', 'Eli Young Band',
-                        'Justin Bieber', 'Ylvis', 'Tim McGraw', 'Cassadee Pope', 'Kid Ink', 'Parmalee', 'Jason Derulo', 'Zendaya', 'Linkin Park',
-                        'Chris Young', 'Joe Nichols', 'Calvin Harris', 'Rich Homie Quan', 'Cole Swindell', 'Demi Lovato', 'Ariana Grande', 'Rihanna',
-                        'Martin Garrix', 'Jon Henry Odgers', 'Idina Menzel', 'John Legend', 'Britney Spears', 'American Authors', 'Phillip Phillips', 'Tyler Farr',
-                        'B.o.B', 'August Alsina', 'The Band Perry', 'Lady Antebellum', 'Future', 'Eric Paslay', 
-                        'Kristen Bell', 'Kristen Bell', 'Lee Brice', 'Zac Brown Band', 'Keith Urban And Miranda Lambert', 'YG', 'Randy Houser',
-                        'Brett Eldredge', 'Robin Thicke Featuring T.I. + Pharrell', 'Chris Brown Featuring Nicki Minaj', 'Aloe Blacc', 'DJ Snake', 'Darius Rucker', 
-                        'Justin Moore', 'Hunter Hayes', 'Pharrell Williams', 'Easton Corbin', 'Jon Pardi' ],
-
-                        /** In case you want to listen all times please use this list
-                        alltime = [ 'Elvis Presley', 'Garth Brooks', 'Led Zeppelin', 'Eagles', 'Billy Joel', 'Michael Jackson', 'Pink Floyd', 'Elton John', 
-                        'Barbra Streisand', 'AC DC','George Strait', 'Aerosmith', 'The Rolling', 'Bruce Springsteen', 'Madonna', 'Mariah Carey', 
-                        'Metallica', 'Whitney Houston', 'Van Halen', 'U2', 'Kenny Rogers', 'Celine Dion', 'Fleetwood Mac', 'Neil Diamond', 
-                        'Shania Twain', 'Kenny G', 'Journey', 'Alabama', 'Guns N', 'Santana Mexico', 'Bob Seger', 'Alan Jackson', 
-                        'Eric Clapton', 'Reba McEntire', 'Prince', 'Chicago', 'Simon and', 'Pac', 'Rod Stewart', 'Foreigner', 
-                        'Bob Dylan', 'Backstreet Boys', 'Tim McGraw', 'Def Leppard', 'Willie Nelson', 'Eminem', 'Queen', 'Britney Spears', 
-                        'Bon Jovi', 'Phil Collins', 'R. Kelly','Dave Matthews', 'James Taylor', 'John Denver', 'The Doors', 'Pearl Jam', 
-                        'Boston', 'Dixie Chicks', 'Linda Ronstadt', 'Tom Petty', 'Jay Z', 'Ozzy Osbourne', 'Mannheim Steamroller', 'Tom Petty',
-                        'Michael Bolton', 'Lynyrd Skynyrd', 'John Mellencamp', 'Brooks ', 'Barry Manilow', 'Boyz II', 'Frank Sinatra', 'Enya  Ireland', 
-                        'Bee Gees', 'Janet Jackson', 'Creedence Clearwater', 'Faith Hill', 'Kenny Chesney', 'Rush  Canada', 'Nirvana', 'ZZ Top', 
-                        'Luther Vandross', 'Creed', 'The Carpenters', 'Steve Miller', 'Toby Keith', 'Vince Gill', 'Green Day', 'Motley Crue',
-                        'Earth', 'The Cars', 'Kid Rock', 'Sade', 'Jimmy Buffett', 'Lionel Richie', 'Red Hot', 'The Police', 
-                        'Jimi Hendrix', 'Usher', 'Heart', 'The Beach', 'Linkin Park', 'Pink Floyd', 'The Beatles', 'Shakira',
-                        'Jay Z', 'Ketty Perry', 'Eminem', 'Lady Gaga', 'Akon', 'Britney Spears', 'Justin Beiber',
-                        'Justin Timberlake', 'Black Eyed Peas', 'Drake', 'Taylor Swift', 'Bon Jovi'], **/
-            
-            index = Math.floor(Math.random() * artists.length);
-
-        return artists[index];
-
-      };
-
-      // Load YouNonStop Player
-      $('#younonstopplayer').loadYouNonStop({
-              ytPlayerURL: "http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=ytplayer&version=3",
-              playerWidth: "100%",
-              playerHeight: "100%",
-              swfVersion: "9",
-              params: {
-                  allowScriptAccess: "always",
-                  wmode: "transparent"
-              },
-              atts: {
-                  id: 'ytplayer',
-                  allowFullScreen:'true'
-              }
-          },
-          $('#playerControls'),
-          $('div.navbar-wrapper'),
-          $('#search'),
-          randomSearchQuery()
-      );
-    }());
-    </script>
+    <script src="https://apis.google.com/js/client.js?onload=initGoogleAPI"></script>
   </body>
 </html>

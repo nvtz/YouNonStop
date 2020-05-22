@@ -1,25 +1,38 @@
 {
-  "name": "YouNonStop",
-  
-  "description": "The most enjoyable YouTube experience",
-  
-  "version": "0.1.0",
-  
-  "author": {
-    "name": "Navtez Singh",
-    "url": "http://navtez.com/"
+  "name": "younonstop",
+  "version": "1.0.0",
+  "description": "The most enjoyable music and video experience",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "npm run clean && ENV=prod webpack",
+    "build:dev": "npm run clean && ENV=dev webpack",
+    "build": "npm run clean && ENV=dev webpack",
+    "clean": "rimraf dist"
   },
-  
-  "repository": "navtez/younonstop",
-
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nvtz/YouNonStop.git"
+  },
+  "author": "Navtez S",
+  "license": "MIT",
+  "homepage": "https://github.com/nvtz/younonstop#readme",
+  "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-htmlhint": "~0.4.0",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-htmlmin": "~0.2.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-cssmin": "~0.8.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-copy": "~0.5.0"
-  }
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "keywords": [
+    "younonstop"
+  ]
 }

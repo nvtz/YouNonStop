@@ -7,7 +7,7 @@ body {
     padding: 0px;
     font-size:14px;
     background: #000;
-    font-color:#fff;
+    color:#fff;
     position:relative;
     overflow-y: hidden; 
     width: 100%;
@@ -64,7 +64,7 @@ h3, h4 {
   white-space:nowrap;
 }
 
-#noflash {
+#waitmsg {
   position: fixed;
   margin-top :150px;
   width:100%;
